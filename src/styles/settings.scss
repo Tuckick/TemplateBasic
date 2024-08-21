@@ -1,0 +1,30 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+
+// .v-main {
+// flex: 1 0 auto;
+// max-width: 100%;
+// transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+// padding-left: 20px;
+// padding-right:  20px;
+// padding-top: 84px;
+// padding-bottom: 20px;
+// }
+.page-container{
+    width: 100%;
+    height: 100%;
+}
+.page-wrapper{
+    margin: 92px 20px 20px;
+}
+.v-label,.v-textarea .v-field--no-label textarea, .v-textarea .v-field--active textarea,
+.v-btn--variant-elevated, .v-btn--variant-flat,
+.v-text-field .v-field--no-label input, .v-text-field .v-field--active input,
+.v-field--center-affix .v-label.v-field-label{
+    color: #6caeed;
+
+}
